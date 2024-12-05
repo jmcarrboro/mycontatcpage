@@ -1,0 +1,81 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/rainbow-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(244, 218, 48, 0.365); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: solid white;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h1 {
+	font-family: "Alumni Sans Pinstripe", sans-serif;
+	font-size: 4em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+h2 {
+	font-family: "Road Rage", serif;
+	font-size: 1.5em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+p {
+	font-family: "Alumni Sans Pinstripe", sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+nav{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+	font-size 1.2em;
+	width: 400px;
+	border: solid rgb(255, 255, 255);
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+    
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	background: pink;
+}

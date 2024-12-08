@@ -4,7 +4,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/rainbow-bg.jpg");
+  background-image: url("images/Untitled-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,10 +14,11 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    
+	width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(244, 218, 48, 0.365); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(103, 94, 232, 0.000v); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: solid white;
 }
@@ -31,24 +32,27 @@ html, body {
 
 h1 {
 	font-family: "Alumni Sans Pinstripe", sans-serif;
-	font-size: 4em;
-    line-height: 1.4;
-    color: #fff;
+	font-size: 7em;
+    line-height: .9;
+    color: #ffffff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 h2 {
 	font-family: "Road Rage", serif;
-	font-size: 1.5em;
+	font-size: 2em;
+	line-height: 1;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 p {
-	font-family: "Alumni Sans Pinstripe", sans-serif;
-	font-size: 1.2em;
-    line-height: 1.6;
+	font-family: "Road Rage", serif;
+	font-size: 1.4em;
+	font-style: italic;
+	line-height: 2.5;
+    margin: 0px auto 10px auto;
     color: #fff;
 }
 nav{
@@ -59,23 +63,28 @@ nav{
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+	margin: 2em auto;
 }
     
 nav li{
 	display: inline;
+	text-align: center;
 }
 
 nav a{
 	display: inline-block;
+	text-align: center;
 	padding: 10px;
 }
 
 a{
 	color: #ffffff;
 	text-decoration: none;
+	text-align: center;
 }
 
 a:hover{
 	color: black;
-	background: pink;
+	background: rgb(104, 184, 231);
+	text-align: center;
 }
